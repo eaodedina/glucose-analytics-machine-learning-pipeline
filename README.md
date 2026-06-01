@@ -1,13 +1,10 @@
-This repository contains three projects applying data mining techniques to CGM (Continuous Glucose Monitoring) and insulin datasets.
+This repository contains machine learning and data mining projects focused on CGM (Continuous Glucose Monitoring) and insulin datasets.
 
-Extracting Time Series Project
-    Goal: Extract several performance metrics of an Artificial Pancreas system from
-    sensor data. Process raw CGM and Insulin data to extract time-series features.  
+data-preprocessing-clustering
+    Goal: Develop a time-series analysis pipeline for extracting glucose regulation metrics from CGM and insulin pump datasets. Synchronize                 sensor timestamps, process glucose trends, handle missing data, and evaluate glucose behavior across manual and auto insulin delivery             modes.
 
-Machine Model Training Project 
-    Goal: Train dataset to train and test a machine model.
+clustering-analysis
+    Goal: Implement clustering and validation techniques to classify meal carbohydrate intake patterns from glucose and insulin datasets using K-           Means, DBSCAN, dimensionality reduction, and clustering evaluation metrics.
 
-Cluster Validation Project
-    Goal: Apply cluster validation techniques to data extracted from a dataset.
-
-
+classification-model
+    Goal: Build a supervised machine learning system for detecting meal and no-meal glucose activity from CGM data. Extract time-series features,           train SVM classification models, and evaluate performance using cross-validation metrics.
